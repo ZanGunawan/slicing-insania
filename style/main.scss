@@ -78,6 +78,11 @@ html {
             }
         }
     }
+    @media (min-width: 380px) {
+        .container-fluid {
+            padding: 0 50px;
+        }
+    }
 }
 
 // header style
@@ -450,4 +455,99 @@ footer {
 
 // link page
 //  Login Page
-
+#sign-page {
+    .sign-page {
+        overflow-x: hidden;
+        .row {
+            .kiri {
+                background-image: url(/img/Rectangle.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                // height: fit-content;
+            }
+            .kanan {
+                // padding-left: 100px;
+                background-color: rgba(101, 186, 191, 0.1);
+                h5 {
+                    font-size: 20px;
+                }
+                p {
+                    font-size: 14px;
+                }
+                form {
+                    border-radius: 30px;
+                    background-color: #fff;
+                    padding: 20px 40px;
+                    width: 360px;
+                    div {
+                        label {
+                            padding-left: 10px;
+                            font-size: 14px;
+                        }
+                        input {
+                            border-radius: 20px;
+                            background: #D9D9D9;
+                            height: 35px;
+                        }
+                    }
+                    .btn {
+                        margin-top: 22px;
+                        border-radius: 20px;
+                        width: 100%;
+                    }
+                    .btn-login {
+                        background: rgba(1, 132, 145, 0.75);
+                        color: #fff;
+                    }
+                    .btn-login:hover {
+                        background: rgba(1, 102, 111, 0.75);
+                    }
+                    .btn-sign {
+                        border: 2px solid rgba(1, 132, 145, 0.75);
+                        color: #000;
+                    }
+                    .btn-sign:hover {
+                        background-color: rgba(1, 132, 145, 0.75);
+                        color: #fff;
+                    }
+                    p {
+                        margin-top: 20px;
+                        padding-left: 70px;
+                        // background-color: aqua;
+                        font-size: 15px;
+                        a {
+                            margin: auto ;
+                            text-decoration: none;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: 380px) {
+        .sign-page {
+            .row {
+                .kanan {
+                    padding-left: 100px;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 380px) {
+        .sign-page {
+            .row {
+                .kanan {
+                    h5, p {
+                        margin: 20px 30px;
+                    }
+                    form {
+                        p {
+                            margin-left: -5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

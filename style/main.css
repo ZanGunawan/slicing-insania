@@ -57,6 +57,11 @@ html {
   line-height: 19.36px;
   color: #fff;
 }
+@media (min-width: 380px) {
+  .navbar .container-fluid {
+    padding: 0 50px;
+  }
+}
 
 #hero {
   background-color: var(--bgPrimary);
@@ -344,5 +349,80 @@ footer .footer .container .row .col h5 {
   footer .footer .container .row .col h5 {
     font-size: 12px;
     margin-bottom: 2px;
+  }
+}
+
+#sign-page .sign-page {
+  overflow-x: hidden;
+}
+#sign-page .sign-page .row .kiri {
+  background-image: url(/img/Rectangle.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#sign-page .sign-page .row .kanan {
+  background-color: rgba(101, 186, 191, 0.1);
+}
+#sign-page .sign-page .row .kanan h5 {
+  font-size: 20px;
+}
+#sign-page .sign-page .row .kanan p {
+  font-size: 14px;
+}
+#sign-page .sign-page .row .kanan form {
+  border-radius: 30px;
+  background-color: #fff;
+  padding: 20px 40px;
+  width: 360px;
+}
+#sign-page .sign-page .row .kanan form div label {
+  padding-left: 10px;
+  font-size: 14px;
+}
+#sign-page .sign-page .row .kanan form div input {
+  border-radius: 20px;
+  background: #D9D9D9;
+  height: 35px;
+}
+#sign-page .sign-page .row .kanan form .btn {
+  margin-top: 22px;
+  border-radius: 20px;
+  width: 100%;
+}
+#sign-page .sign-page .row .kanan form .btn-login {
+  background: rgba(1, 132, 145, 0.75);
+  color: #fff;
+}
+#sign-page .sign-page .row .kanan form .btn-login:hover {
+  background: rgba(1, 102, 111, 0.75);
+}
+#sign-page .sign-page .row .kanan form .btn-sign {
+  border: 2px solid rgba(1, 132, 145, 0.75);
+  color: #000;
+}
+#sign-page .sign-page .row .kanan form .btn-sign:hover {
+  background-color: rgba(1, 132, 145, 0.75);
+  color: #fff;
+}
+#sign-page .sign-page .row .kanan form p {
+  margin-top: 20px;
+  padding-left: 70px;
+  font-size: 15px;
+}
+#sign-page .sign-page .row .kanan form p a {
+  margin: auto;
+  text-decoration: none;
+}
+@media (min-width: 380px) {
+  #sign-page .sign-page .row .kanan {
+    padding-left: 100px;
+  }
+}
+@media screen and (max-width: 380px) {
+  #sign-page .sign-page .row .kanan h5, #sign-page .sign-page .row .kanan p {
+    margin: 20px 30px;
+  }
+  #sign-page .sign-page .row .kanan form p {
+    margin-left: -5px;
   }
 }/*# sourceMappingURL=main.css.map */
