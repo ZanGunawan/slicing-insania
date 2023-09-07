@@ -355,8 +355,8 @@ footer .footer .container .row .col h5 {
 #sign-page .sign-page {
   overflow-x: hidden;
 }
-#sign-page .sign-page .row .kiri {
-  background-image: url(../img/Rectangle.png);
+#sign-page .sign-page .row .col-md-4 {
+  background-image: url(/img/Rectangle.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
