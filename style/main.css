@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap");
+:root {
+  --primaryFont: "Inter", sans-serif;
+  --secondaryFont: "Poppins", sans-serif;
+  --buttonColor: #018491;
+  --buttonHover: #025464;
+  --bgPrimary: rgba(2, 84, 100, 0.6) ;
+  --paddingSection: 20px 0 20px;
+  --heightSection: 603px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.warning {
+  padding: 1px 0;
+}
+.warning p {
+  margin-top: 5px;
+}
+
+.sky {
+  border-radius: 30px;
+  padding: 15px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 99;
+  background-color: var(--buttonColor);
+  box-shadow: 0 0 10px rgba(2, 84, 100, 0.5);
+}
+.sky a svg {
+  fill: #fff;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .nav-item {
+  margin-right: 26px;
+}
+.navbar .container-fluid .collapse .navbar-nav .nav-item a {
+  font-family: var(--primaryFont);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.36px;
+}
+.navbar .container-fluid .collapse div :hover {
+  background: var(--buttonHover);
+}
+.navbar .container-fluid .collapse div a {
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+  background: var(--buttonColor);
+  font-family: var(--primaryFont);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #fff;
+}
+
+#hero {
+  background-color: var(--bgPrimary);
+}
+#hero .head {
+  padding: var(--paddingSection);
+  overflow-x: hidden;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: var(--secondaryFont);
+}
+#hero .head .row .kiri {
+  color: #fff;
+}
+#hero .head .row .kiri h1, #hero .head .row .kiri p {
+  margin-bottom: 35px;
+}
+#hero .head .row .kiri h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 67.5px;
+}
+#hero .head .row .kiri p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+#hero .head .row .kiri button {
+  margin-top: 20px;
+  color: var(--buttonColor);
+  background: #fff;
+  transition: 0.2s ease-in-out;
+  border-radius: 15px;
+}
+#hero .head .row .kiri .btn:hover {
+  background: var(--buttonHover);
+  color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+#hero .head .row .kanan img {
+  width: 500px;
+}
+@media screen and (max-width: 393px) {
+  #hero {
+    padding: 10px 30px;
+  }
+  #hero .head .row .kiri h1, #hero .head .row .kiri p {
+    margin-bottom: 10px;
+  }
+  #hero .head .row .kiri h1 {
+    font-size: 32px;
+    line-height: 50px;
+  }
+  #hero .head .row .kiri p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  #hero .head .row .kiri button {
+    font-size: 12px;
+  }
+  #hero .head .row .kanan {
+    display: none;
+  }
+}
+
+#about {
+  overflow-x: hidden;
+  background-color: #fff;
+}
+#about .about {
+  font-family: var(--secondaryFont);
+  padding: var(--paddingSection);
+}
+#about .about .row .kiri .img-1 {
+  position: relative;
+  top: 40px;
+}
+#about .about .row .kiri .img-2 {
+  position: relative;
+  bottom: 20px;
+  left: 300px;
+  border: 18px solid #fff;
+  border-radius: 10px;
+}
+#about .about .row .kanan h1 {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 53px;
+}
+#about .about .row .kanan p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+#about .about .row .kanan .btn {
+  background: var(--buttonColor);
+  color: #fff;
+  border-radius: 15px;
+  width: 240px;
+}
+#about .about .row .kanan .btn:hover {
+  background: var(--buttonHover);
+}
+@media screen and (max-width: 393px) {
+  #about {
+    padding: 20px 30px;
+  }
+  #about .about .row .kiri img {
+    height: 200px;
+  }
+  #about .about .row .kiri .img-1 {
+    position: relative;
+    top: 20px;
+  }
+  #about .about .row .kiri .img-2 {
+    position: relative;
+    bottom: 20px;
+    left: 50px;
+    border: 10px solid #fff;
+  }
+  #about .about .row .kanan h1 {
+    font-size: 27px;
+    line-height: 53px;
+  }
+  #about .about .row .kanan p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  #about .about .row .kanan .btn {
+    font-size: 13px;
+  }
+}
+
+#partner {
+  padding: 50px 0;
+  font-family: var(--secondaryFont);
+}
+#partner .partner h1 {
+  font-size: 35px;
+}
+#partner .partner .row .partner-card {
+  margin-top: 80px;
+}
+#partner .partner .row .partner-card .card {
+  height: 370px;
+  border: 1px solid var(--buttonColor);
+  border-radius: 10px;
+  padding: 25px 15px;
+}
+#partner .partner .row .partner-card .card .partner-icon {
+  background-color: #018491;
+  padding: 10px;
+  width: auto;
+}
+#partner .partner .row .partner-card .card .partner-icon svg {
+  fill: #fff;
+}
+#partner .partner .row .partner-card .card .card-body h5 {
+  font-size: 18px;
+}
+#partner .partner .row .partner-card .card .card-body p {
+  font-size: 15px;
+}
+#partner .partner .row .partner-card .card:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(2, 84, 100, 0.5);
+}
+@media screen and (max-width: 393px) {
+  #partner .partner .row .col .card {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  #partner .partner h1 {
+    font-size: 25px;
+  }
+  #partner .partner .col {
+    margin-bottom: -70px;
+  }
+}
+
+#service {
+  font-family: var(--secondaryFont);
+  padding: 40px 0;
+}
+#service .service {
+  padding-bottom: 50px;
+}
+#service .service h1 {
+  font-size: 35px;
+}
+#service .service .row .col .card-hover {
+  transition: all 0.3s ease-in-out;
+}
+#service .service .row .col .card-hover:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: var(--bgPrimary);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+#service .service .row .col .lainnya {
+  border: none;
+}
+#service .service .row .col .lainnya .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#service .service .row .col .lainnya .card-body svg {
+  width: 100px;
+  fill: var(--buttonColor);
+}
+#service .service .row .col .lainnya .card-body svg:hover {
+  fill: var(--buttonHover);
+}
+@media screen and (max-width: 393px) {
+  #service .service {
+    margin-top: 30px;
+  }
+  #service .service h1 {
+    font-size: 25px;
+  }
+  #service .service .col .card img {
+    width: 150px;
+    margin: 0 auto;
+  }
+  #service .service .col .card .card-body h5 {
+    font-size: 18px;
+  }
+}
+
+footer .footer {
+  padding: 50px;
+  background-color: var(--bgPrimary);
+  color: #fff;
+  fill: #fff;
+}
+footer .footer .icon-footer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1rem;
+}
+footer .footer .icon-footer svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer .icon-footer span {
+  font-size: 18px;
+  font-weight: 600;
+}
+footer .footer .container .row .col {
+  padding: 10px;
+}
+footer .footer .container .row .col h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 30px;
+}
+footer .footer .container .row .col h5 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+@media screen and (max-width: 393px) {
+  footer .footer .container .row .col {
+    margin-bottom: 25px;
+  }
+  footer .footer .container .row .col img {
+    margin-bottom: 20px;
+  }
+  footer .footer .container .row .col .icon-footer svg {
+    width: 32px;
+  }
+  footer .footer .container .row .col .icon-footer span {
+    font-size: 15px;
+  }
+  footer .footer .container .row .col h4 {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  footer .footer .container .row .col h5 {
+    font-size: 12px;
+    margin-bottom: 2px;
+  }
+}/*# sourceMappingURL=main.css.map */
