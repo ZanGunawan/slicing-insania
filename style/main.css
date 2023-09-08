@@ -356,7 +356,7 @@ footer .footer .container .row .col h5 {
   overflow-x: hidden;
 }
 #sign-page .sign-page .row .col-md-4 {
-  background-image: url(/img/Rectangle.png);
+  background-image: url(../img/Rectangle.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -431,7 +431,7 @@ footer .footer .container .row .col h5 {
   overflow-x: hidden;
 }
 #login-page .login-page .row .col-md-4 {
-  background-image: url(/img/Rectangle.png);
+  background-image: url(../img/Rectangle.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
