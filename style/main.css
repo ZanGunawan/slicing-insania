@@ -654,4 +654,40 @@ footer .footer .container .row .col h5 {
     background-repeat: no-repeat;
     background-size: cover;
   }
+}
+
+#partner-page {
+  background-color: rgba(101, 186, 191, 0.1);
+  height: -moz-fit-content;
+  height: fit-content;
+}
+#partner-page .partner-page {
+  padding: 50px 0;
+}
+#partner-page .partner-page h2 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+#partner-page .partner-page .partner-logo {
+  margin: 0 auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 50px;
+}
+#partner-page .partner-page .partner-logo img {
+  margin: 0 10px;
+}
+@media screen and (max-width: 380px) {
+  #partner-page .partner-page .partner-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #partner-page .partner-page .partner-logo img {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  #partner-page .partner-page .partner-logo .kh {
+    width: 35%;
+  }
 }/*# sourceMappingURL=main.css.map */
