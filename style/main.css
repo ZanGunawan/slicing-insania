@@ -425,4 +425,88 @@ footer .footer .container .row .col h5 {
   #sign-page .sign-page .row .kanan form p {
     margin-left: -5px;
   }
+}
+
+#login-page .login-page {
+  overflow-x: hidden;
+}
+#login-page .login-page .row .col-md-4 {
+  background-image: url(/img/Rectangle.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#login-page .login-page .row .kanan {
+  background-color: rgba(101, 186, 191, 0.1);
+}
+#login-page .login-page .row .kanan h5 {
+  font-size: 20px;
+}
+#login-page .login-page .row .kanan p {
+  font-size: 14px;
+}
+#login-page .login-page .row .kanan form {
+  border-radius: 30px;
+  background-color: #fff;
+  padding: 20px 40px;
+  width: 360px;
+}
+#login-page .login-page .row .kanan form div label {
+  padding-left: 10px;
+  font-size: 14px;
+}
+#login-page .login-page .row .kanan form div input {
+  border-radius: 20px;
+  background: #D9D9D9;
+  height: 35px;
+}
+#login-page .login-page .row .kanan form .btn {
+  margin-top: 22px;
+  border-radius: 20px;
+  width: 100%;
+}
+#login-page .login-page .row .kanan form .btn-login {
+  background: rgba(1, 132, 145, 0.75);
+  color: #fff;
+}
+#login-page .login-page .row .kanan form .btn-login:hover {
+  background: rgba(1, 102, 111, 0.75);
+}
+#login-page .login-page .row .kanan form .btn-sign {
+  border: none;
+  background: #D9D9D9;
+  color: #000;
+}
+#login-page .login-page .row .kanan form .btn-sign:hover {
+  background-color: rgba(1, 132, 145, 0.75);
+  color: #fff;
+}
+#login-page .login-page .row .kanan form p {
+  margin-top: 20px;
+  padding-left: 70px;
+  font-size: 15px;
+}
+#login-page .login-page .row .kanan form p a {
+  margin: auto;
+  text-decoration: none;
+}
+@media (min-width: 380px) {
+  #login-page .login-page .row .kanan {
+    padding-left: 100px;
+  }
+}
+@media screen and (max-width: 380px) {
+  #login-page {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  #login-page .login-page .row .kanan h5, #login-page .login-page .row .kanan p {
+    margin: 20px 30px;
+  }
+  #login-page .login-page .row .kanan form p {
+    margin-left: -5px;
+  }
+  #login-page .login-page .row .kiri {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
